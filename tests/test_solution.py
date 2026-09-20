@@ -147,9 +147,16 @@ class TestRecursiveChunker(unittest.TestCase):
 class TestEmbeddingStore(unittest.TestCase):
 
     def _make_store(self) -> EmbeddingStore:
+        print("Making EmbeddingStore for testing...")
+        print(EmbeddingStore(collection_name="test", embedding_fn=_mock_embed))
         return EmbeddingStore(collection_name="test", embedding_fn=_mock_embed)
 
     def _make_docs(self, n: int = 3) -> list[Document]:
+        print(f"Making {n} documents for testing...")
+        print([
+            Document(id=f"doc{i}", content=f"This is document number {i}.", metadata={})
+            for i in range(n)
+        ])
         return [
             Document(id=f"doc{i}", content=f"This is document number {i}.", metadata={})
             for i in range(n)

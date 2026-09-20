@@ -1,0 +1,29 @@
+=== KẾT QUẢ BENCHMARK RETRIEVAL ===
+Số file: 3 | Tổng số chunks: 379
+
+Query 1: Người mua có thể gửi yêu cầu trả hàng và hoàn tiền trong vòng bao nhiêu ngày kể từ khi nhận hàng?
+Top-1 ID: 77251#26 | Score: 0.8709
+Top-1 Content: Người Mua có thể gửi yêu cầu trả hàng/hoàn tiền trong vòng 15 (mười lăm) ngày kể từ lúc đơn hàng được cập nhật giao hàng thành công
+Agent answer: Người Mua có thể gửi yêu cầu trả hàng/hoàn tiền trong vòng 15 (mười lăm) ngày kể từ lúc đơn hàng được cập nhật giao hàng thành công Một số trường hợp Người Mua có nhu cầu trả hàng/...
+--------------------------------------------------
+Query 2: Điều kiện để Người mua được yêu cầu trả hàng do không còn nhu cầu là gì?
+Top-1 ID: 77251#24 | Score: 0.8377
+Top-1 Content: Sản Phẩm ở trạng thái nguyên vẹn và nguyên bao bì nhưng Người Mua không còn nhu cầu ("Trả hàng COM"), theo yêu cầu tại Điều 4 dưới đây.
+Agent answer: Sản Phẩm ở trạng thái nguyên vẹn và nguyên bao bì nhưng Người Mua không còn nhu cầu ("Trả hàng COM"), theo yêu cầu tại Điều 4 dưới đây. 3.1. Người Mua đồng ý rằng Người Mua chỉ có ...
+--------------------------------------------------
+Query 3: Quy định về việc khiếu nại và đổi trả đối với Người mua (buyer) là gì?
+Filter: {'audience': 'buyer'}
+Top-1 ID: 77251#20 | Score: 0.8002
+Top-1 Content: Người Bán giao sai Sản Phẩm cho Người Mua (ví dụ: sai kích cỡ, sai màu sắc, v.v);
+Agent answer: a.    Khiếu nại với đơn trả hàng hoàn tiền (dành cho Người Mua/ Người Bán): Xem chi tiết tại Chính sách Trả hàng và Hoàn tiền. Người Bán giao sai Sản Phẩm cho Người Mua (ví dụ: sai...
+--------------------------------------------------
+Query 4: Người bán có được phép tự tổ chức vận chuyển hàng hóa trên sàn Shopee không?
+Top-1 ID: 77250#1 | Score: 0.8264
+Top-1 Content: CHÍNH SÁCH VẬN CHUYỂN SHOPEE | Shopee Trung tâm trợ giúp
+Agent answer: CHÍNH SÁCH VẬN CHUYỂN SHOPEE | Shopee Trung tâm trợ giúp CHÍNH SÁCH VẬN CHUYỂN SHOPEE b.    Chính Sách Vận Chuyển này không áp dụng đối với trường hợp Người Bán tự tổ chức vận chuy...
+--------------------------------------------------
+Query 5: Shopee hỗ trợ giải quyết tranh chấp, khiếu nại giữa Người Mua và Người Bán thông qua cơ chế nào?
+Top-1 ID: 77265#8 | Score: 0.9054
+Top-1 Content: Tranh chấp hoặc khiếu nại sẽ được Shopee xử lý theo trình tự sau:
+Agent answer: Tranh chấp hoặc khiếu nại sẽ được Shopee xử lý theo trình tự sau: QUY TRÌNH GIẢI QUYẾT TRANH CHẤP/ XỬ LÝ KHIẾU NẠI | Shopee Trung tâm trợ giúp # QUY TRÌNH GIẢI QUYẾT TRA...
+--------------------------------------------------
